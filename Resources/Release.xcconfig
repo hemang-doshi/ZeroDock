@@ -1,0 +1,7 @@
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 2
+
+// Your own Spotify app's client ID. Leave empty to build without Spotify, or put it in the
+// git-ignored Resources/Local.xcconfig as: SPOTIFY_CLIENT_ID = <your client id>
+SPOTIFY_CLIENT_ID =
+#include? "Local.xcconfig"
